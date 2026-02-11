@@ -1,0 +1,50 @@
+# ==========================
+# Root-level node_modules
+# ==========================
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# ==========================
+# Backend (Node + TypeScript)
+# ==========================
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/.DS_Store
+
+# ==========================
+# Web (React / Next.js / TypeScript)
+# ==========================
+web/node_modules/
+web/.next/
+web/.env.local
+web/.env.development
+web/.env.production
+web/.DS_Store
+web/build/
+
+# ==========================
+# Mobile (React Native / Expo)
+# ==========================
+mobile/node_modules/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/.vscode/
+mobile/dist/
+mobile/android/
+mobile/ios/
+mobile/.env
+mobile/.DS_Store
+
+# ==========================
+# IDE / OS files
+# ==========================
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+.DS_Store
